@@ -1,12 +1,13 @@
 import { FaGithub } from "react-icons/fa";
+import { NavLink } from "react-router";
 const Navbar = () => {
     const link = <>
-        <li className="m-2 hover:text-[#9F62F2]">Home</li>
-        <li className="m-2 hover:text-[#9F62F2]">Apps</li>
-        <li className="m-2 hover:text-[#9F62F2]">Installation</li>
+        <NavLink to="/"><li className="m-2 hover:text-[#9F62F2]">Home</li></NavLink>
+        <NavLink to="allapps"><li className="m-2 hover:text-[#9F62F2]">Apps</li></NavLink>
+        <NavLink to="allapps"><li className="m-2 hover:text-[#9F62F2]">Installation</li></NavLink>
     </>
     return (
-        <div className="navbar bg-base-100 border-b-1 border-gray-100">
+        <div className="navbar bg-base-100">
             <div className="navbar-start">
                 <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -18,7 +19,7 @@ const Navbar = () => {
                         {link}
                     </ul>
                 </div>
-                <a className="flex items-center btn-ghost text-xl text-[#632EE3] lg:ml-20"><img src="../../../public/Image/Nav_Logo.png" alt="" />HERO.IO</a>
+                <NavLink to="/"><a className="flex items-center btn-ghost text-xl text-[#632EE3] lg:ml-20"><img src="../../../public/Image/Nav_Logo.png" alt="" />HERO.IO</a></NavLink>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">

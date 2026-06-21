@@ -3,7 +3,7 @@ import { IoLogoGooglePlaystore } from "react-icons/io5";
 const Banner = () => {
     return (
         <div className="hero bg-base-200">
-            <div className="hero-content flex mt-20 text-center">
+            <div className="flex mt-20 text-center">
                 <div>
                     <div className="max-w-md mx-auto">
                         <h1 className="text-5xl font-bold">We Build <span className="text-[#632EE3]">Productive</span> Apps</h1>
