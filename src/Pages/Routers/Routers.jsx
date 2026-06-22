@@ -4,6 +4,7 @@ import Home from "../Home/Home";
 import AppsDitels from "../AppsDitels/AppsDitels";
 import ErrorPage from "../ErrorPage/ErrorPage";
 import AllApps from "../AllApps/AllApps";
+import AppsError from "../AppsError/AppsError";
 export const router = createBrowserRouter([
   {
     path: "/",
@@ -23,6 +24,10 @@ export const router = createBrowserRouter([
           path:"/allapps",
           loader:()=>fetch("/Apps.json"),
           Component:AllApps
+        },
+        {
+          path:"/appnotfound",
+          Component: AppsError
         }
       ]
     },

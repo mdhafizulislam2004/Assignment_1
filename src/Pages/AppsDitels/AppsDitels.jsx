@@ -1,8 +1,9 @@
-import { Suspense } from "react";
+import { Suspense, useState } from "react";
 import { useLoaderData, useParams } from "react-router";
 import { FiDownload } from "react-icons/fi";
 import { FaStar } from "react-icons/fa";
 import { AiFillLike } from "react-icons/ai";
+import { toast } from "react-toastify";
 
 
 
@@ -13,6 +14,16 @@ const AppsDitels = () => {
     const data = useLoaderData()
     const AllApps = data.find(app => app.id === AppsId)
     const { image, title, ratingAvg, downloads, companyName,reviews,size } = AllApps
+
+
+    const [triger,setTriger]=useState(false)
+
+    const trigerHendaler=()=>{
+        setTriger(true)
+        toast.success("Installed Success")
+        
+        
+    }
 
     return (
         <Suspense fallback={<span className="loading loading-bars loading-xl"></span>}>
@@ -46,7 +57,7 @@ const AppsDitels = () => {
                                 <h1>{reviews}</h1>
                             </div>
                         </div>
-                        <button className="btn mt-5 btn-primary">Install Now ({size} MB)</button>
+                        <button disabled={triger} onClick={()=>trigerHendaler()} className="btn mt-5 btn-primary">{triger?"Instaled":`Install Now (${size} MB)`}</button>
                     </div>
                 </div>
             </div>

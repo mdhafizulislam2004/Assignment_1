@@ -15,8 +15,8 @@ const App = ({ SingleApp }) => {
                 <div className="card-body">
                     <h2 className="card-title">Name: <span className="uppercase font-extrabold">{title}</span></h2>
                     <div className="flex justify-between">
-                        <h1 className="flex items-center gap-1 font-bold text-[#00D390] w-28 p-2 rounded-2xl bg-gray-200"><PiDownloadSimple />{downloads}</h1>
-                        <div className="flex items-center gap-2">
+                        <h1 className="flex items-center gap-1 font-bold text-[#00D390] px-2 p-2 rounded-2xl bg-gray-200"><PiDownloadSimple />{downloads}</h1>
+                        <div className="flex items-center text-orange-500 px-2 rounded-2xl bg-orange-200 gap-2">
                             <FaStar />
                             <p className="flex items-center gap-2">{ratingAvg}</p>
                         </div>

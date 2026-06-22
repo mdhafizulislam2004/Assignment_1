@@ -1,5 +1,6 @@
 import { FaAppStoreIos } from "react-icons/fa";
 import { IoLogoGooglePlaystore } from "react-icons/io5";
+import BannderImag from "../../../public/Image/Header.png"
 const Banner = () => {
     return (
         <div className="hero bg-base-200">
@@ -14,7 +15,7 @@ const Banner = () => {
                     <button className="btn m-2 bg-white text-black border-gray-200 text-2xl"><IoLogoGooglePlaystore />Google Play</button>
                     <button className="btn m-2 bg-white text-black border-gray-200 text-2xl"><FaAppStoreIos />App Store</button>
                     <div className="">
-                        <img src="../../../public/Image/Header.png" alt="" />
+                        <img src={BannderImag} alt="" />
                     </div>
                 </div>
             </div>

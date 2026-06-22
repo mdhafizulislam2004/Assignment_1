@@ -1,10 +1,11 @@
 import { FaGithub } from "react-icons/fa";
 import { NavLink } from "react-router";
+import NavLogo from "../../../public/Image/Nav_Logo.png"
 const Navbar = () => {
     const link = <>
         <NavLink to="/"><li className="m-2 hover:text-[#9F62F2]">Home</li></NavLink>
         <NavLink to="allapps"><li className="m-2 hover:text-[#9F62F2]">Apps</li></NavLink>
-        <NavLink to="allapps"><li className="m-2 hover:text-[#9F62F2]">Installation</li></NavLink>
+        <NavLink to="appnotfound"><li className="m-2 hover:text-[#9F62F2]">Installation</li></NavLink>
     </>
     return (
         <div className="navbar bg-base-100">
@@ -19,7 +20,7 @@ const Navbar = () => {
                         {link}
                     </ul>
                 </div>
-                <NavLink to="/"><a className="flex items-center btn-ghost text-xl text-[#632EE3] lg:ml-20"><img src="../../../public/Image/Nav_Logo.png" alt="" />HERO.IO</a></NavLink>
+                <NavLink to="/"><a className="flex items-center btn-ghost text-xl text-[#632EE3] lg:ml-20"><img src={NavLogo} alt="" />HERO.IO</a></NavLink>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
