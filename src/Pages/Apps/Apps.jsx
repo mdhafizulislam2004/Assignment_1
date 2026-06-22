@@ -5,7 +5,7 @@ const Apps = ({ AppsData }) => {
 
     return (
         <div>
-            <div className="mx-auto text-center pt-20 pb-10 text-3xl">
+            <div className="text-center pt-20 pb-10 text-3xl">
                 <h1 className="font-bold text-4xl">Trending Apps</h1>
                 <p className="text-xl text-gray-400 pt-3">Explore All Trending Apps on the Market developed by us</p>
             </div>
