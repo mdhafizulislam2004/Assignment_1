@@ -1,234 +1,362 @@
 [
   {
-    "image": "https://cdn-icons-png.flaticon.com/512/2111/2111463.png",
-    "title": "Instagram",
-    "companyName": "Meta",
+    "image": "https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?w=500&q=80",
+    "title": "Taskify - Task Management App",
+    "companyName": "TechNexus Lab",
     "id": 1,
-    "description": "Photo and video sharing social media platform.",
-    "size": 85,
-    "reviews": 150000000,
+    "description": "Streamline your daily workflow, assign tasks, and track team progress in real-time with Taskify.",
+    "size": 42,
+    "reviews": 1250,
     "ratingAvg": 4.5,
-    "downloads": 5000000000
-  },
-  {
-    "image": "https://cdn-icons-png.flaticon.com/512/733/733585.png",
-    "title": "WhatsApp",
-    "companyName": "Meta",
-    "id": 2,
-    "description": "Messaging and video calling application.",
-    "size": 75,
-    "reviews": 200000000,
-    "ratingAvg": 4.4,
-    "downloads": "10000000000k"
-  },
-  {
-    "image": "https://cdn-icons-png.flaticon.com/512/3046/3046121.png",
-    "title": "TikTok",
-    "companyName": "ByteDance",
-    "id": 3,
-    "description": "Short-form video sharing platform.",
-    "size": 120,
-    "reviews": 80000000,
-    "ratingAvg": 4.3,
-    "downloads": 5000000000
-  },
-  {
-    "image": "https://cdn-icons-png.flaticon.com/512/1384/1384060.png",
-    "title": "YouTube",
-    "companyName": "Google",
-    "id": 4,
-    "description": "Video streaming and content platform.",
-    "size": 150,
-    "reviews": 120000000,
-    "ratingAvg": 4.4,
-    "downloads": 10000000000
-  },
-  {
-    "image": "https://cdn-icons-png.flaticon.com/512/2991/2991148.png",
-    "title": "Facebook",
-    "companyName": "Meta",
-    "id": 5,
-    "description": "Social networking platform.",
-    "size": 95,
-    "reviews": 140000000,
-    "ratingAvg": 4.2,
-    "downloads": 5000000000
-  },
-  {
-    "image": "https://cdn-icons-png.flaticon.com/512/5968/5968534.png",
-    "title": "Gmail",
-    "companyName": "Google",
-    "id": 6,
-    "description": "Email service by Google.",
-    "size": 70,
-    "reviews": 50000000,
-    "ratingAvg": 4.6,
-    "downloads": 10000000000
-  },
-  {
-    "image": "https://cdn-icons-png.flaticon.com/512/5968/5968705.png",
-    "title": "Spotify",
-    "companyName": "Spotify",
-    "id": 7,
-    "description": "Music and podcast streaming platform.",
-    "size": 90,
-    "reviews": 30000000,
-    "ratingAvg": 4.5,
-    "downloads": 1000000000
-  },
-  {
-    "image": "https://cdn-icons-png.flaticon.com/512/5968/5968866.png",
-    "title": "Netflix",
-    "companyName": "Netflix",
-    "id": 8,
-    "description": "Movies and TV shows streaming service.",
-    "size": 110,
-    "reviews": 25000000,
-    "ratingAvg": 4.4,
-    "downloads": 1000000000
-  },
-  {
-    "image": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3",
-    "title": "Note Keeper",
-    "companyName": "SmartSoft",
-    "id": 9,
-    "description": "Organize notes, tasks, and ideas in one place.",
-    "size": 22,
-    "reviews": 1100,
-    "ratingAvg": 4.4,
-    "downloads": 45000,
+    "downloads": 50000,
     "ratings": [
-      { "name": "1 star", "count": 15 },
-      { "name": "2 star", "count": 35 },
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 50 },
       { "name": "3 star", "count": 100 },
       { "name": "4 star", "count": 350 },
-      { "name": "5 star", "count": 600 }
+      { "name": "5 star", "count": 700 }
     ]
   },
   {
-    "image": "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b",
-    "title": "CodeCraft",
-    "companyName": "DevCore",
-    "id": 10,
-    "description": "Practice coding and improve programming skills.",
-    "size": 68,
-    "reviews": 2200,
-    "ratingAvg": 4.8,
+    "image": "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=500&q=80",
+    "title": "FitPulse - Fitness Tracker",
+    "companyName": "Helix Health",
+    "id": 2,
+    "description": "Track your daily steps, calories burned, heart rate, and customized workout plans effortlessly.",
+    "size": 58,
+    "reviews": 890,
+    "ratingAvg": 4.2,
+    "downloads": 35000,
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 60 },
+      { "name": "3 star", "count": 120 },
+      { "name": "4 star", "count": 270 },
+      { "name": "5 star", "count": 400 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=500&q=80",
+    "title": "Finances - Budget Planner",
+    "companyName": "Apex Finance Corp",
+    "id": 3,
+    "description": "Take control of your money. Track expenses, set savings goals, and get detailed monthly reports.",
+    "size": 28,
+    "reviews": 2100,
+    "ratingAvg": 4.7,
     "downloads": 120000,
     "ratings": [
-      { "name": "1 star", "count": 12 },
-      { "name": "2 star", "count": 20 },
-      { "name": "3 star", "count": 90 },
+      { "name": "1 star", "count": 30 },
+      { "name": "2 star", "count": 40 },
+      { "name": "3 star", "count": 130 },
       { "name": "4 star", "count": 500 },
-      { "name": "5 star", "count": 1578 }
+      { "name": "5 star", "count": 1400 }
     ]
   },
   {
-    "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085",
-    "title": "Focus Timer",
-    "companyName": "TimeTech",
-    "id": 11,
-    "description": "Boost productivity using the Pomodoro technique.",
-    "size": 18,
-    "reviews": 750,
+    "image": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=500&q=80",
+    "title": "EduLearn - Online Courses",
+    "companyName": "Bright Mind Academy",
+    "id": 4,
+    "description": "Access thousands of high-quality video courses in coding, design, business, and language learning.",
+    "size": 65,
+    "reviews": 4300,
+    "ratingAvg": 4.6,
+    "downloads": 250000,
+    "ratings": [
+      { "name": "1 star", "count": 100 },
+      { "name": "2 star", "count": 150 },
+      { "name": "3 star", "count": 350 },
+      { "name": "4 star", "count": 1100 },
+      { "name": "5 star", "count": 2600 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=500&q=80",
+    "title": "YumDrop - Food Delivery",
+    "companyName": "YumDrop Global",
+    "id": 5,
+    "description": "Order delicious food from your favorite local restaurants and get it delivered fast to your doorstep.",
+    "size": 34,
+    "reviews": 9500,
+    "ratingAvg": 4.4,
+    "downloads": 800000,
+    "ratings": [
+      { "name": "1 star", "count": 400 },
+      { "name": "2 star", "count": 500 },
+      { "name": "3 star", "count": 1100 },
+      { "name": "4 star", "count": 2500 },
+      { "name": "5 star", "count": 5000 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=500&q=80",
+    "title": "RoamFree - Travel & Maps",
+    "companyName": "Wayfarer Digital",
+    "id": 6,
+    "description": "Discover hidden gems, plan itineraries, and use offline maps for your next big adventure.",
+    "size": 88,
+    "reviews": 1600,
     "ratingAvg": 4.3,
-    "downloads": 30000,
+    "downloads": 95000,
+    "ratings": [
+      { "name": "1 star", "count": 70 },
+      { "name": "2 star", "count": 90 },
+      { "name": "3 star", "count": 190 },
+      { "name": "4 star", "count": 450 },
+      { "name": "5 star", "count": 800 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1614680376593-902f74fa0d41?w=500&q=80",
+    "title": "SoundWave - Music Streaming",
+    "companyName": "Sonic Labs",
+    "id": 7,
+    "description": "Stream millions of songs, podcasts, and curated playlists in ultra high-quality audio.",
+    "size": 47,
+    "reviews": 15400,
+    "ratingAvg": 4.8,
+    "downloads": 2000000,
+    "ratings": [
+      { "name": "1 star", "count": 200 },
+      { "name": "2 star", "count": 300 },
+      { "name": "3 star", "count": 900 },
+      { "name": "4 star", "count": 3000 },
+      { "name": "5 star", "count": 11000 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=500&q=80",
+    "title": "CryptoVault - Wallet & News",
+    "companyName": "BlockSec Group",
+    "id": 8,
+    "description": "Securely manage your crypto assets, track real-time prices, and stay updated with blockchain news.",
+    "size": 39,
+    "reviews": 3100,
+    "ratingAvg": 4.1,
+    "downloads": 150000,
+    "ratings": [
+      { "name": "1 star", "count": 250 },
+      { "name": "2 star", "count": 300 },
+      { "name": "3 star", "count": 450 },
+      { "name": "4 star", "count": 800 },
+      { "name": "5 star", "count": 1300 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=500&q=80",
+    "title": "SlackPro - Team Chat",
+    "companyName": "Connect LLC",
+    "id": 9,
+    "description": "Bring your team together with secure messaging, file sharing, and integrated video calling.",
+    "size": 52,
+    "reviews": 8700,
+    "ratingAvg": 4.4,
+    "downloads": 650000,
+    "ratings": [
+      { "name": "1 star", "count": 300 },
+      { "name": "2 star", "count": 450 },
+      { "name": "3 star", "count": 1050 },
+      { "name": "4 star", "count": 2100 },
+      { "name": "5 star", "count": 4800 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1506157786151-b8491531f063?w=500&q=80",
+    "title": "SnapEdit - Photo Editor",
+    "companyName": "PixelCraft Studios",
+    "id": 10,
+    "description": "Professional photo editing tools, unique filters, and AI background removal in one tap.",
+    "size": 74,
+    "reviews": 11200,
+    "ratingAvg": 4.6,
+    "downloads": 900000,
+    "ratings": [
+      { "name": "1 star", "count": 250 },
+      { "name": "2 star", "count": 350 },
+      { "name": "3 star", "count": 1100 },
+      { "name": "4 star", "count": 3000 },
+      { "name": "5 star", "count": 6500 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=500&q=80",
+    "title": "PetPals - Social for Pets",
+    "companyName": "FurFriends Media",
+    "id": 11,
+    "description": "Connect with other pet owners, share cute photos, and find vet services in your local area.",
+    "size": 31,
+    "reviews": 540,
+    "ratingAvg": 4.3,
+    "downloads": 18000,
     "ratings": [
       { "name": "1 star", "count": 20 },
       { "name": "2 star", "count": 40 },
-      { "name": "3 star", "count": 90 },
-      { "name": "4 star", "count": 250 },
-      { "name": "5 star", "count": 350 }
+      { "name": "3 star", "count": 80 },
+      { "name": "4 star", "count": 150 },
+      { "name": "5 star", "count": 250 }
     ]
   },
   {
-    "image": "https://images.unsplash.com/photo-1515378791036-0648a3ef77b2",
-    "title": "Recipe Book",
-    "companyName": "Foodies",
+    "image": "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=500&q=80",
+    "title": "BookWorm - Digital Library",
+    "companyName": "LitVerse Inc",
     "id": 12,
-    "description": "Discover and save delicious recipes from around the world.",
+    "description": "Read thousands of ebooks and audiobooks offline with customized fonts and night mode.",
     "size": 45,
-    "reviews": 1850,
-    "ratingAvg": 4.6,
-    "downloads": 80000,
+    "reviews": 3400,
+    "ratingAvg": 4.7,
+    "downloads": 140000,
     "ratings": [
-      { "name": "1 star", "count": 18 },
-      { "name": "2 star", "count": 30 },
-      { "name": "3 star", "count": 120 },
-      { "name": "4 star", "count": 500 },
-      { "name": "5 star", "count": 1182 }
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 70 },
+      { "name": "3 star", "count": 230 },
+      { "name": "4 star", "count": 800 },
+      { "name": "5 star", "count": 2250 }
     ]
   },
   {
-    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
-    "title": "Weather Now",
-    "companyName": "SkyNet",
+    "image": "https://images.unsplash.com/photo-1534447677768-be436bb09401?w=500&q=80",
+    "title": "DeepZen - Meditation App",
+    "companyName": "Mindfulness Labs",
     "id": 13,
-    "description": "Real-time weather forecasts and alerts.",
-    "size": 28,
-    "reviews": 1300,
-    "ratingAvg": 4.1,
+    "description": "Reduce stress and improve sleep with daily guided meditations and calming nature ambient soundscapes.",
+    "size": 61,
+    "reviews": 4800,
+    "ratingAvg": 4.8,
+    "downloads": 300000,
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 80 },
+      { "name": "3 star", "count": 280 },
+      { "name": "4 star", "count": 1000 },
+      { "name": "5 star", "count": 3400 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1532938911079-1b06ac7ceec7?w=500&q=80",
+    "title": "DocConsult - Telehealth",
+    "companyName": "MedVantage Healthcare",
+    "id": 14,
+    "description": "Consult certified doctors online via video call and get digital prescriptions instantly.",
+    "size": 36,
+    "reviews": 1950,
+    "ratingAvg": 4.2,
+    "downloads": 85000,
+    "ratings": [
+      { "name": "1 star", "count": 110 },
+      { "name": "2 star", "count": 140 },
+      { "name": "3 star", "count": 250 },
+      { "name": "4 star", "count": 550 },
+      { "name": "5 star", "count": 900 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=500&q=80",
+    "title": "CartGo - Fast E-Commerce",
+    "companyName": "CartGo Retail Ltd",
+    "id": 15,
+    "description": "Shop electronics, apparel, and groceries with secure lightning-fast checkout and next-day delivery.",
+    "size": 49,
+    "reviews": 12800,
+    "ratingAvg": 4.5,
+    "downloads": 1500000,
+    "ratings": [
+      { "name": "1 star", "count": 450 },
+      { "name": "2 star", "count": 600 },
+      { "name": "3 star", "count": 1450 },
+      { "name": "4 star", "count": 3500 },
+      { "name": "5 star", "count": 6800 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1551836022-d5d88e9218df?w=500&q=80",
+    "title": "JobHunt - Find Work",
+    "companyName": "CareerPath Network",
+    "id": 16,
+    "description": "Apply to thousands of remote and local jobs with quick resume builders and smart filters.",
+    "size": 29,
+    "reviews": 5600,
+    "ratingAvg": 4.3,
+    "downloads": 400000,
+    "ratings": [
+      { "name": "1 star", "count": 220 },
+      { "name": "2 star", "count": 380 },
+      { "name": "3 star", "count": 850 },
+      { "name": "4 star", "count": 1650 },
+      { "name": "5 star", "count": 2500 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?w=500&q=80",
+    "title": "QuestRealm - RPG Game",
+    "companyName": "ForgeFire Games",
+    "id": 17,
+    "description": "Explore an open-world fantasy environment, battle monsters, and level up your custom hero.",
+    "size": 340,
+    "reviews": 24500,
+    "ratingAvg": 4.6,
+    "downloads": 5000000,
+    "ratings": [
+      { "name": "1 star", "count": 800 },
+      { "name": "2 star", "count": 1100 },
+      { "name": "3 star", "count": 2600 },
+      { "name": "4 star", "count": 6000 },
+      { "name": "5 star", "count": 14000 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=500&q=80",
+    "title": "AudioBox - Podcast Player",
+    "companyName": "VoxMedia Studio",
+    "id": 18,
+    "description": "Listen to global hit talk shows, tech reviews, crime stories, and download episodes offline.",
+    "size": 41,
+    "reviews": 1750,
+    "ratingAvg": 4.4,
+    "downloads": 90000,
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 90 },
+      { "name": "3 star", "count": 210 },
+      { "name": "4 star", "count": 500 },
+      { "name": "5 star", "count": 900 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1535223289827-42f1e9919769?w=500&q=80",
+    "title": "SecureVPN - Fast Proxy",
+    "companyName": "CyberGuard Network",
+    "id": 19,
+    "description": "Protect your digital privacy and unblock websites with ultra-fast global server connections.",
+    "size": 25,
+    "reviews": 32000,
+    "ratingAvg": 4.7,
+    "downloads": 10000000,
+    "ratings": [
+      { "name": "1 star", "count": 700 },
+      { "name": "2 star", "count": 900 },
+      { "name": "3 star", "count": 2800 },
+      { "name": "4 star", "count": 8600 },
+      { "name": "5 star", "count": 19000 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1526253038957-bce54e05968e?w=500&q=80",
+    "title": "HabitGrid - Daily Tracker",
+    "companyName": "Routine Labs",
+    "id": 20,
+    "description": "Build positive habits, break bad ones, and visualize your daily streak statistics elegantly.",
+    "size": 18,
+    "reviews": 1450,
+    "ratingAvg": 4.5,
     "downloads": 60000,
     "ratings": [
       { "name": "1 star", "count": 40 },
       { "name": "2 star", "count": 60 },
       { "name": "3 star", "count": 150 },
       { "name": "4 star", "count": 400 },
-      { "name": "5 star", "count": 650 }
-    ]
-  },
-  {
-    "image": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f",
-    "title": "Team Chat",
-    "companyName": "ConnectX",
-    "id": 14,
-    "description": "Collaborate and communicate with your team instantly.",
-    "size": 52,
-    "reviews": 2400,
-    "ratingAvg": 4.7,
-    "downloads": 180000,
-    "ratings": [
-      { "name": "1 star", "count": 15 },
-      { "name": "2 star", "count": 35 },
-      { "name": "3 star", "count": 150 },
-      { "name": "4 star", "count": 700 },
-      { "name": "5 star", "count": 1500 }
-    ]
-  },
-  {
-    "image": "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c",
-    "title": "Budget Tracker",
-    "companyName": "FinanceHub",
-    "id": 15,
-    "description": "Track expenses and manage your finances effectively.",
-    "size": 34,
-    "reviews": 1450,
-    "ratingAvg": 4.5,
-    "downloads": 70000,
-    "ratings": [
-      { "name": "1 star", "count": 20 },
-      { "name": "2 star", "count": 30 },
-      { "name": "3 star", "count": 120 },
-      { "name": "4 star", "count": 480 },
       { "name": "5 star", "count": 800 }
-    ]
-  },
-  {
-    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475",
-    "title": "Game Arena",
-    "companyName": "PlayZone",
-    "id": 16,
-    "description": "Enjoy exciting multiplayer games with friends.",
-    "size": 120,
-    "reviews": 5000,
-    "ratingAvg": 4.8,
-    "downloads": 350000,
-    "ratings": [
-      { "name": "1 star", "count": 30 },
-      { "name": "2 star", "count": 50 },
-      { "name": "3 star", "count": 200 },
-      { "name": "4 star", "count": 1200 },
-      { "name": "5 star", "count": 3520 }
     ]
   }
 ]

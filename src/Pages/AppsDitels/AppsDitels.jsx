@@ -4,6 +4,7 @@ import { FiDownload } from "react-icons/fi";
 import { FaStar } from "react-icons/fa";
 import { AiFillLike } from "react-icons/ai";
 import { toast } from "react-toastify";
+import AppsRatingChart from "../AppsRatingChart/AppsRatingChart";
 
 
 
@@ -13,7 +14,7 @@ const AppsDitels = () => {
     const AppsId = parseInt(id)
     const data = useLoaderData()
     const AllApps = data.find(app => app.id === AppsId)
-    const { image, title, ratingAvg, downloads, companyName,reviews,size } = AllApps
+    const { image, title, ratingAvg, downloads, companyName,reviews,size,ratings } = AllApps
 
 
     const [triger,setTriger]=useState(false)
@@ -61,6 +62,7 @@ const AppsDitels = () => {
                     </div>
                 </div>
             </div>
+            <AppsRatingChart ratings={ratings}></AppsRatingChart>
         </Suspense>
     );
 };

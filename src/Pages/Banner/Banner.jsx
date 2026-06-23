@@ -12,8 +12,8 @@ const Banner = () => {
                             Atb HERO.IO, we craft innovative apps designed to make everyday life simpler, smarter, and more exciting.Our goal is to turn your ideas into digital experiences that truly make an impact.
                         </p>
                     </div>
-                    <button className="btn m-2 bg-white text-black border-gray-200 text-2xl"><IoLogoGooglePlaystore />Google Play</button>
-                    <button className="btn m-2 bg-white text-black border-gray-200 text-2xl"><FaAppStoreIos />App Store</button>
+                    <button className="btn m-2 bg-white text-black border-gray-200 text-2xl"><a className="flex items-center gap-1"  href="https://play.google.com/store/games?hl=en_US&pli=1"><IoLogoGooglePlaystore />Google Play</a></button>
+                    <button className="btn m-2 bg-white text-black border-gray-200 text-2xl"> <a className="flex items-center gap-1" href="https://apps.apple.com/us/iphone/today"><FaAppStoreIos />App Store</a></button>
                     <div className="">
                         <img src={BannderImag} alt="" />
                     </div>
