@@ -2,14 +2,16 @@ import { Bar, BarChart, XAxis, YAxis, } from 'recharts';
 const AppsRatingChart = ({ ratings }) => {
     console.log(ratings);
 
-
     return (
-        <div className='flex justify-center mt-5'>
-            <BarChart width={800} height={500} data={ratings}>
-                <XAxis dataKey="name"></XAxis>
-                <YAxis></YAxis>
+        <div className='max-w-full mt-5 mx-8'>
+            <BarChart width={800} height={500} data={ratings} layout="vertical">
+                <YAxis dataKey="name" type="category"></YAxis>
+
+                    {/* Aine Bole Dite Hobe je Number Type Data Bose Karon (x)Serial A All Time Text Type Data Hoy & Y te number Type Data Hoy */}
+
+                <XAxis type="number"></XAxis>
+
                 <Bar dataKey="count" fill='red'></Bar>
-                {/* <Bar dataKey="name" fill='blue'></Bar> */}
             </BarChart>
         </div>
     );

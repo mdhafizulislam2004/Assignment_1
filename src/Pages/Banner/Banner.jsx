@@ -14,7 +14,7 @@ const Banner = () => {
                     </div>
                     <button className="btn m-2 bg-white text-black border-gray-200 text-2xl"><a className="flex items-center gap-1"  href="https://play.google.com/store/games?hl=en_US&pli=1"><IoLogoGooglePlaystore />Google Play</a></button>
                     <button className="btn m-2 bg-white text-black border-gray-200 text-2xl"> <a className="flex items-center gap-1" href="https://apps.apple.com/us/iphone/today"><FaAppStoreIos />App Store</a></button>
-                    <div className="">
+                    <div className="mt-5">
                         <img src={BannderImag} alt="" />
                     </div>
                 </div>

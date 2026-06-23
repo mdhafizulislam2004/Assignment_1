@@ -12,7 +12,7 @@ const ErrorPage = () => {
                 <h2 className="card-title text-5xl font-bold">Oops, page not found!</h2>
                 <p className="text-3xl pt-3 text-gray-400">The page you are looking for is not available.</p>
                 <div className="card-actions">
-                    <NavLink to="/"><button className="btn btn-active btn-primary mt-5">Go Back!</button></NavLink>
+                    <NavLink to="/allapps"><button className="btn btn-active btn-primary mt-5">Go Back!</button></NavLink>
                 </div>
             </div>
         </div>
