@@ -30,7 +30,7 @@ const AppsDitels = () => {
     return (
         <Suspense fallback={<span className="loading loading-bars loading-xl"></span>}>
 
-            <div className="bg-base-200 w-full p-9 mx-auto">
+            <div className="w-full p-9 mx-auto">
                 <div className=" flex items-center gap-7 w-full justify-center flex-col lg:flex-row">
                     <img
                         src={image}
