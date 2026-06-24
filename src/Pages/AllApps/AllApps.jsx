@@ -10,9 +10,10 @@ const AllApps = () => {
 
     const [search, setSearch] = useState("")
 
-    const FilterData = AllData.filter(app => app.title.toLowerCase().includes(search.toLowerCase()))
+    // const FilterData = AllData.filter(app => app.title.LowerCase().includes(search.toLowerCase()))
+    const filterData=AllData.filter(App=>App.title.toLowerCase().includes(search.toLowerCase()))
 
-    console.log(AllData);
+    // console.log(AllData);
 
     return (
         <div className="pt-20">
@@ -22,7 +23,7 @@ const AllApps = () => {
             </div>
             <div className="flex justify-between items-center mt-4 mx-8 sm:mx-10">
                 <div className="font-bold sm:text-xl lg:text-2xl">
-                    <h1>Apps Found ({FilterData.length})</h1>
+                    <h1>Apps Found ({filterData.length})</h1>
                 </div>
                 <div>
                     <label className="input">
@@ -46,12 +47,12 @@ const AllApps = () => {
 
             <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5 pt-4 mx-8 items-center">
                {
-                    FilterData.length === 0 ? (
+                    filterData.length === 0 ? (
                         <div className="col-span-full w-full">
                             <AppsError></AppsError>
                         </div>
                     ) : (
-                        FilterData.map(Data => <AllDataApp AllBooks={Data} key={Data.id}></AllDataApp>)
+                        filterData.map(Data => <AllDataApp AllBooks={Data} key={Data.id}></AllDataApp>)
                     )
                 }
             </div>

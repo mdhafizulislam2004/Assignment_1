@@ -15,18 +15,18 @@ const AppsDitels = () => {
     const AppsId = parseInt(id)
     const data = useLoaderData()
     const AllApps = data.find(app => app.id === AppsId)
-    const { image, title, ratingAvg, downloads, companyName,reviews,size,ratings,description } = AllApps
+    const { image, title, ratingAvg, downloads, companyName, reviews, size, ratings, description } = AllApps
 
 
-    const [triger,setTriger]=useState(false)
+    const [triger, setTriger] = useState(false)
 
-    const trigerHendaler=()=>{
+
+    const trigerHendaler = () => {
         setTriger(true)
         toast.success("Installed Success")
-        
-        
-    }
 
+
+    }
     return (
         <Suspense fallback={<span className="loading loading-bars loading-xl"></span>}>
 
@@ -54,12 +54,12 @@ const AppsDitels = () => {
                                 <h1>{ratingAvg}</h1>
                             </div>
                             <div>
-                                 <h3 className="ml-10"><AiFillLike /></h3>
+                                <h3 className="ml-10"><AiFillLike /></h3>
                                 <h1>Total Reviews</h1>
                                 <h1>{reviews}</h1>
                             </div>
                         </div>
-                        <button disabled={triger} onClick={()=>trigerHendaler()} className="btn mt-5 btn-primary">{triger?"Instaled":`Install Now (${size} MB)`}</button>
+                        <button disabled={triger} onClick={() => trigerHendaler()} className="btn mt-5 btn-primary">{triger ? "Instaled" : `Install Now (${size} MB)`}</button>
                     </div>
                 </div>
             </div>

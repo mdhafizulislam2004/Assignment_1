@@ -5,7 +5,7 @@ const Navbar = () => {
     const link = <>
         <NavLink to="/"><li className="m-2 hover:text-[#9F62F2]">Home</li></NavLink>
         <NavLink to="allapps"><li className="m-2 hover:text-[#9F62F2]">Apps</li></NavLink>
-        <NavLink to="appnotfound"><li className="m-2 hover:text-[#9F62F2]">Installation</li></NavLink>
+        <NavLink to="installedapp"><li className="m-2 hover:text-[#9F62F2]">Installation</li></NavLink>
     </>
     return (
         <div className="navbar bg-base-100">
