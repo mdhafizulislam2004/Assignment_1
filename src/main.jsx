@@ -10,7 +10,7 @@ createRoot(document.getElementById('root')).render(
   <StrictMode>
     <RouterProvider router={router} />
     <ToastContainer
-      position="top-center"
+      position="top-right"
       autoClose={1000}
       hideProgressBar={false}
       newestOnTop={false}

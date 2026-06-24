@@ -1,4 +1,4 @@
-import { Suspense, useState } from "react";
+import { Suspense, useEffect, useState } from "react";
 import { useLoaderData, useParams } from "react-router";
 import { FiDownload } from "react-icons/fi";
 import { FaStar } from "react-icons/fa";
@@ -17,15 +17,26 @@ const AppsDitels = () => {
     const AllApps = data.find(app => app.id === AppsId)
     const { image, title, ratingAvg, downloads, companyName, reviews, size, ratings, description } = AllApps
 
-
     const [triger, setTriger] = useState(false)
 
+    // useEffect(() => {
+    //     if (!AllApps?.id) return
+    //     const installedApps = JSON.parse(localStorage.getItem("installedApps"))
+    //     const isInstalled = installedApps.some(app => app.id === AllApps.id)
+    //     setTriger(isInstalled)
+    // }, [AllApps])
 
     const trigerHendaler = () => {
+        // if (!AllApps?.id) return
+        // const installedApps = JSON.parse(localStorage.getItem("installedApps") )
+        // const alreadyInstalled = installedApps.some(app => app.id === AllApps.id)
+        // if (!alreadyInstalled) {
+        //     installedApps.push(AllApps)
+        //     localStorage.setItem("installedApps", JSON.stringify(installedApps))
+        // }
+
         setTriger(true)
         toast.success("Installed Success")
-
-
     }
     return (
         <Suspense fallback={<span className="loading loading-bars loading-xl"></span>}>
@@ -54,7 +65,7 @@ const AppsDitels = () => {
                                 <h1>{ratingAvg}</h1>
                             </div>
                             <div>
-                                <h3 className="ml-10"><AiFillLike /></h3>
+                                <h3 className="ml-10"><AiFillLike/></h3>
                                 <h1>Total Reviews</h1>
                                 <h1>{reviews}</h1>
                             </div>
