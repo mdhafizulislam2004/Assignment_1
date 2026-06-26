@@ -43,6 +43,7 @@ import AppDescription from "../AppDescription/AppDescription";
         <Suspense fallback={<span className="loading loading-bars loading-xl"></span>}>
 
             <div className="w-full p-9 mx-auto">
+                <title>{title}</title>
                 <div className=" flex items-center gap-7 w-full justify-center flex-col lg:flex-row">
                     <img
                         src={image}

@@ -21,6 +21,7 @@ const Installed = () => {
 
     return (
         <div className="pt-20 pb-10">
+            <title>Assignment- Install</title>
             <div className="hero">
                 <div className="hero-content text-center">
                     <div className="max-w-md">

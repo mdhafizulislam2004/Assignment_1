@@ -9,6 +9,7 @@ const Home = () => {
     
     return (
         <div>
+            <title>Assignment- Home</title>
             <Banner></Banner>
             <Banner2></Banner2>
             <Apps AppsData={AppsData}></Apps>

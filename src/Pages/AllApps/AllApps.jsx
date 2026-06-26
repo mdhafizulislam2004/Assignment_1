@@ -18,6 +18,7 @@ const AllApps = () => {
 
     return (
         <div className="pt-20">
+            <title>Assignment- Apps</title>
             <div className="text-center">
                 <h1 className="text-4xl font-extrabold">Our All Applications</h1>
                 <h3 className="text-xl text-gray-400 mt-3">Explore All Apps on the Market developed by us. We code for Millions</h3>
