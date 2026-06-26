@@ -1,20 +1,23 @@
-// import { useEffect, useState } from "react";
-// import { FaStar } from "react-icons/fa";
-// import { PiDownloadSimple } from "react-icons/pi";
+import { useEffect, useState } from "react";
+import { FaStar } from "react-icons/fa";
+import { PiDownloadSimple } from "react-icons/pi";
 
 const Installed = () => {
-    // const [installedApps, setInstalledApps] = useState([])
+    const [installedApps, setInstalledApps] = useState([])
 
-    // useEffect(() => {
-    //     const apps = JSON.parse(localStorage.getItem("installedApps")) 
-    //     setInstalledApps(apps)
-    // }, [])
+    useEffect(() => {
+        const apps = JSON.parse(localStorage.getItem("installedApps")) 
+        setInstalledApps(apps)
+    }, [])
 
-    // const handleUninstall = (id) => {
-    //     const nextApps = installedApps.filter(app => app.id !== id)
-    //     setInstalledApps(nextApps)
-    //     localStorage.setItem("installedApps", JSON.stringify(nextApps))
-    // }
+    const handleUninstall = (id) => {
+        const nextApps = installedApps.filter(app => app.id !== id)
+        setInstalledApps(nextApps)
+        localStorage.setItem("installedApps", JSON.stringify(nextApps))
+    }
+
+    
+    
 
     return (
         <div className="pt-20 pb-10">
@@ -29,9 +32,9 @@ const Installed = () => {
                 </div>
             </div>
 
-            {/* {installedApps.length === 0 ? (
+            {installedApps.length === 0 ? (
                 <div className="text-center py-20">
-                    
+                    <h1 className="text-3xl text-gray-300">No App Data Add</h1>
                 </div>
             ) : (
                 <div className="space-y-5 mx-8 mt-8">
@@ -59,7 +62,7 @@ const Installed = () => {
                         </div>
                     ))}
                 </div>
-            )} */}
+            )}
         </div>
     );
 };

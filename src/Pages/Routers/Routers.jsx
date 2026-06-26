@@ -6,6 +6,7 @@ import ErrorPage from "../ErrorPage/ErrorPage";
 import AllApps from "../AllApps/AllApps";
 import AppsError from "../AppsError/AppsError";
 import Installed from "../Installed/Installed";
+
 export const router = createBrowserRouter([
   {
     path: "/",

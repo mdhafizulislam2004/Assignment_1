@@ -2,11 +2,11 @@ import { FaGithub } from "react-icons/fa";
 import { NavLink } from "react-router";
 import NavLogo from "../../../public/Image/Nav_Logo.png"
 const Navbar = () => {
-    const link = <>
-        <NavLink to="/"><li className="m-2 hover:text-[#9F62F2]">Home</li></NavLink>
-        <NavLink to="allapps"><li className="m-2 hover:text-[#9F62F2]">Apps</li></NavLink>
-        <NavLink to="installedapp"><li className="m-2 hover:text-[#9F62F2]">Installation</li></NavLink>
-    </>
+    const link = <div className="font-bold flex">
+        <NavLink to="/" className={({isActive})=>isActive?"underline text-[#9F62F2]":"no-underline"} ><li className="m-2 hover:text-[#9F62F2]">Home</li></NavLink>
+        <NavLink to="allapps" className={({isActive})=>isActive?"underline text-[#9F62F2]":"no-underline"}><li className="m-2 hover:text-[#9F62F2]">Apps</li></NavLink>
+        <NavLink to="installedapp" className={({isActive})=>isActive?"underline text-[#9F62F2]":"no-underline"}><li className="m-2 hover:text-[#9F62F2]">Installation</li></NavLink>
+    </div>
     return (
         <div className="navbar bg-base-100">
             <div className="navbar-start">

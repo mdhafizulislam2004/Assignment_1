@@ -11,6 +11,7 @@ const AllApps = () => {
     const [search, setSearch] = useState("")
 
     // const FilterData = AllData.filter(app => app.title.LowerCase().includes(search.toLowerCase()))
+    
     const filterData=AllData.filter(App=>App.title.toLowerCase().includes(search.toLowerCase()))
 
     // console.log(AllData);

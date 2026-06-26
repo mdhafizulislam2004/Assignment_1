@@ -8,9 +8,7 @@ import AppsRatingChart from "../AppsRatingChart/AppsRatingChart";
 import AppDescription from "../AppDescription/AppDescription";
 
 
-
-
-const AppsDitels = () => {
+    const AppsDitels = () => {
     const { id } = useParams()
     const AppsId = parseInt(id)
     const data = useLoaderData()
@@ -19,25 +17,28 @@ const AppsDitels = () => {
 
     const [triger, setTriger] = useState(false)
 
-    // useEffect(() => {
-    //     if (!AllApps?.id) return
-    //     const installedApps = JSON.parse(localStorage.getItem("installedApps"))
-    //     const isInstalled = installedApps.some(app => app.id === AllApps.id)
-    //     setTriger(isInstalled)
-    // }, [AllApps])
+    useEffect(() => {
+        if (!AllApps.id) return
+        const installedApps = JSON.parse(localStorage.getItem("installedApps")) || []
+        const isInstalled = installedApps.some(app => app.id === AllApps.id)
+        setTriger(isInstalled)
+    }, [AllApps])
 
+    
     const trigerHendaler = () => {
-        // if (!AllApps?.id) return
-        // const installedApps = JSON.parse(localStorage.getItem("installedApps") )
-        // const alreadyInstalled = installedApps.some(app => app.id === AllApps.id)
-        // if (!alreadyInstalled) {
-        //     installedApps.push(AllApps)
-        //     localStorage.setItem("installedApps", JSON.stringify(installedApps))
-        // }
+        if (!AllApps?.id) return
+        const installedApps = JSON.parse(localStorage.getItem("installedApps")) || []
+        const alreadyInstalled = installedApps.some(app => app.id === AllApps.id)
+        if (!alreadyInstalled) {
+            installedApps.push(AllApps) 
+            localStorage.setItem("installedApps", JSON.stringify(installedApps))
+        }
 
         setTriger(true)
         toast.success("Installed Success")
     }
+    console.log(trigerHendaler);
+    
     return (
         <Suspense fallback={<span className="loading loading-bars loading-xl"></span>}>
 
@@ -65,7 +66,7 @@ const AppsDitels = () => {
                                 <h1>{ratingAvg}</h1>
                             </div>
                             <div>
-                                <h3 className="ml-10"><AiFillLike/></h3>
+                                <h3 className="ml-10"><AiFillLike /></h3>
                                 <h1>Total Reviews</h1>
                                 <h1>{reviews}</h1>
                             </div>

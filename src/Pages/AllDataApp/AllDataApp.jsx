@@ -6,7 +6,7 @@ const AllDataApp = ({ AllBooks }) => {
     const { image, title, ratingAvg, downloads, id } = AllBooks
 
     return (
-        <NavLink to={`/appditels/${id}`}>
+        <NavLink to={`/appsditels/${id}`}>
             <div className="card shadow-2xl p-8">
                 <figure className="w-3/3 p-6 rounded-2xl bg-gray-200">
                     <img className="h-[300px]"
